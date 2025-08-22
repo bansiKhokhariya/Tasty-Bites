@@ -1,0 +1,34 @@
+
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+/* Global font for whole site */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.nav-link {
+    color: #444;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #d35400;
+}
+
+.nav-link.active {
+    color: #d35400;
+    /* orange highlight */
+    font-weight: 700;
+}
+
+.nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 2px;
+    background-color: #d35400;
+}

@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "name": "Breakfast",
+      "recipes": [
+        {
+          "title": "Poha",
+          "img": "images/poha.webp",
+          "link": "recipes/breakfast/poha.html"
+        },
+        {
+          "title": "Upma",
+          "img": "images/upma.webp",
+          "link": "recipes/breakfast/upma.html"
+        }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "recipes": [
+        {
+          "title": "Samosa",
+          "img": "images/samosa.webp",
+          "link": "recipes/snacks/samosa.html"
+        },
+        {
+          "title": "Dhokla",
+          "img": "images/dhokla.webp",
+          "link": "recipes/snacks/dhokla.html"
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "recipes": [
+        {
+          "title": "Paneer Butter Masala",
+          "img": "images/paneer-butter-masala.webp",
+          "link": "recipes/main/paneer.html"
+        },
+        {
+          "title": "Dal Fry",
+          "img": "images/dal-fry.webp",
+          "link": "recipes/main/dal.html"
+        }
+      ]
+    },
+    {
+      "name": "Sweets",
+      "recipes": [
+        {
+          "title": "Gulab Jamun",
+          "img": "images/gulab-jamun.webp",
+          "link": "recipes/sweets/gulab-jamun.html"
+        },
+        {
+          "title": "Rasgulla",
+          "img": "images/rasgulla.webp",
+          "link": "recipes/sweets/rasgulla.html"
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "recipes": [
+        {
+          "title": "Mango Shake",
+          "img": "images/mango-shake.webp",
+          "link": "recipes/beverages/mango-shake.html"
+        },
+        {
+          "title": "Masala Chai",
+          "img": "images/masala-chai.webp",
+          "link": "recipes/beverages/chai.html"
+        }
+      ]
+    },
+    {
+      "name": "Fasting Food",
+      "recipes": [
+        {
+          "title": "Sabudana Khichdi",
+          "img": "images/sabudana-khichdi.webp",
+          "link": "recipes/fasting/sabudana.html"
+        },
+        {
+          "title": "Rajgira Paratha",
+          "img": "images/rajgira-paratha.webp",
+          "link": "recipes/fasting/rajgira.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Tasty Bites</title>
+  <meta name="description"
+    content="Get in touch with Tasty Bites. Contact us for recipe suggestions, collaborations, or any queries.">
+  <meta name="keywords" content="Contact Tasty Bites, Food Blog Contact, Recipe Queries, Collaborate with Tasty Bites">
+  <meta name="author" content="Tasty Bites">
+
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Contact Us - Tasty Bites">
+  <meta property="og:description"
+    content="Have a question, feedback, or collaboration idea? Reach out to Tasty Bites today.">
+  <meta property="og:image" content="https://yourwebsite.com/images/contact-us.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/contact.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact Us - Tasty Bites">
+  <meta name="twitter:description" content="Get in touch with Tasty Bites for recipes, collaborations, or feedback.">
+  <meta name="twitter:image" content="https://yourwebsite.com/images/contact-us.webp">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD Schema for Contact Page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Us - Tasty Bites",
+    "description": "Reach out to Tasty Bites for collaborations, recipe queries, or feedback.",
+    "url": "https://yourwebsite.com/contact.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tasty Bites",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://yourwebsite.com/images/logo.webp"
+      }
+    },
+    "image": "https://yourwebsite.com/images/contact-us.webp"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Navbar Header -->
+  <div class="bg-white shadow-md fixed w-full z-20 top-0 left-0">
+    <div class="container mx-auto">
+      <nav class="flex flex-wrap items-center justify-between p-4 max-w-screen-xl mx-auto">
+
+        <!-- Logo -->
+        <a href="../../index.html" class="flex items-center">
+          <img src="../../images/logo.webp" alt="Tasty Bites Logo" class="h-16 w-auto rounded">
+        </a>
+
+        <!-- Hamburger Button (Mobile) -->
+        <button id="menu-btn"
+          class="md:hidden inline-flex items-center p-2 text-gray-700 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+
+        <!-- Desktop / Mobile Menu -->
+        <div id="mobile-menu" class="hidden w-full md:flex md:items-center md:w-auto">
+          <ul class="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 font-medium">
+            <li><a href="./index.html" class="nav-link block py-2 px-3 md:p-0">Home</a></li>
+            <li><a href="./about.html" class="nav-link block py-2 px-3  md:p-0">About</a></li>
+            <li><a href="./contact.html" class="nav-link block py-2 px-3  md:p-0">Contact</a></li>
+            <li><a href="./privacy.html" class="nav-link block py-2 px-3  md:p-0">Privacy</a></li>
+<li><a href="./terms.html" class="nav-link block py-2 px-3  md:p-0">Terms</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="bg-orange-100 py-16 text-center mt-20">
+    <h1 class="text-4xl font-bold text-orange-700">Get in Touch</h1>
+    <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-700">
+      Have a question, feedback, or collaboration idea? We'd love to hear from you!
+    </p>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="container mx-auto py-12 px-4 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h2 class="text-3xl font-bold text-orange-600 mb-4">Contact Form</h2>
+      <form action="#" class="space-y-4">
+        <input type="text" placeholder="Your Name"
+          class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-orange-400">
+        <input type="email" placeholder="Your Email"
+          class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-orange-400">
+        <textarea placeholder="Your Message" rows="5"
+          class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-orange-400"></textarea>
+        <button type="submit"
+          class="px-6 py-3 bg-orange-600 text-white rounded-lg shadow hover:bg-orange-700 font-semibold">
+          Send Message
+        </button>
+      </form>
+    </div>
+    <img src="images/contact-us.webp" alt="Contact Us" class="rounded-xl shadow-md">
+  </section>
+
+  <!-- Footer -->
+  <footer class="shadow-inner mt-12">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+      <div class="flex items-center space-x-2 justify-center md:justify-start mt-2">
+        <img src="images/logo.webp" alt="Tasty Bites Logo" class="h-24 w-auto rounded">
+      </div>
+      <div class="flex justify-center space-x-6">
+        <a href="about.html" class="text-gray-700 hover:text-orange-600">About</a>
+        <a href="contact.html" class="text-gray-700 hover:text-orange-600">Contact</a>
+        <a href="privacy.html" class="text-gray-700 hover:text-orange-600">Privacy</a>
+<a href="terms.html" class="text-gray-700 hover:text-orange-600">Terms</a>
+      </div>
+      <div class="text-center md:text-right text-gray-500 text-sm">
+        © <span id="year"></span> Tasty Bites. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

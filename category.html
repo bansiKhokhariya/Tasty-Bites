@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Categories – Tasty Bites</title>
+
+  <!-- Meta Tags for SEO -->
+  <meta name="description"
+    content="Explore delicious Indian recipes by category on Tasty Bites. Find authentic, easy-to-follow dishes from snacks, desserts, beverages, and more. Perfect for food lovers and beginners!">
+  <meta name="keywords"
+    content="Indian recipes, recipe categories, snacks, desserts, drinks, tasty bites, vegetarian recipes">
+  <meta name="author" content="Tasty Bites">
+
+  <!-- Open Graph (Facebook, WhatsApp) -->
+  <meta property="og:title" content="Recipe Categories – Tasty Bites">
+  <meta property="og:description"
+    content="Discover authentic recipes organized by categories. From snacks to desserts, find your next favorite dish on Tasty Bites.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/category.html">
+  <meta property="og:image" content="https://yourwebsite.com/images/logo.webp">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Recipe Categories – Tasty Bites">
+  <meta name="twitter:description"
+    content="Browse delicious recipes by categories. Find authentic, easy-to-follow Indian dishes on Tasty Bites.">
+  <meta name="twitter:image" content="https://yourwebsite.com/images/logo.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://yourwebsite.com/images/favicon.webp" type="image/webp">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD (Schema.org for Recipe Collection Page) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Recipe Categories – Tasty Bites",
+    "description": "Browse delicious recipes by categories on Tasty Bites, from snacks to desserts and beverages.",
+    "url": "https://yourwebsite.com/categories.html",
+    "image": "https://yourwebsite.com/images/logo.webp",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tasty Bites",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://yourwebsite.com/images/logo.webp"
+      }
+    }
+  }
+  </script>
+</head>
+
+<body class="bg-gray-50 font-sans flex flex-col min-h-screen">
+
+  <!-- Navbar Header -->
+  <div class="bg-white shadow-md fixed w-full z-20 top-0 left-0">
+    <div class="container mx-auto">
+      <nav class="flex flex-wrap items-center justify-between p-4 max-w-screen-xl mx-auto">
+
+        <!-- Logo -->
+        <a href="../../index.html" class="flex items-center">
+          <img src="../../images/logo.webp" alt="Tasty Bites Logo" class="h-16 w-auto rounded">
+        </a>
+
+        <!-- Hamburger Button (Mobile) -->
+        <button id="menu-btn"
+          class="md:hidden inline-flex items-center p-2 text-gray-700 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+
+        <!-- Desktop / Mobile Menu -->
+        <div id="mobile-menu" class="hidden w-full md:flex md:items-center md:w-auto">
+          <ul class="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 font-medium">
+            <li><a href="./index.html" class="nav-link block py-2 px-3 md:p-0">Home</a></li>
+            <li><a href="./about.html" class="nav-link block py-2 px-3  md:p-0">About</a></li>
+            <li><a href="./contact.html" class="nav-link block py-2 px-3  md:p-0">Contact</a></li>
+            <li><a href="./privacy.html" class="nav-link block py-2 px-3  md:p-0">Privacy</a></li>
+<li><a href="./terms.html" class="nav-link block py-2 px-3  md:p-0">Terms</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <main class="flex-grow mt-20">
+    <section class="container mx-auto py-12 px-4">
+      <h2 id="categoryTitle" class="text-2xl font-bold text-orange-700 mb-6 text-center"></h2>
+      <div id="categoryRecipes" class="grid grid-cols-1 md:grid-cols-4 gap-6"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow-inner mt-12">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center py-4">
+
+      <!-- Logo -->
+      <div class="flex items-center space-x-2 justify-center md:justify-start">
+        <img src="images/logo.webp" alt="Tasty Bites Logo" class="h-16 w-auto rounded">
+      </div>
+
+      <!-- Links -->
+      <div class="flex justify-center space-x-6">
+        <a href="about.html" class="text-gray-700 hover:text-orange-600">About</a>
+        <a href="contact.html" class="text-gray-700 hover:text-orange-600">Contact</a>
+        <a href="privacy.html" class="text-gray-700 hover:text-orange-600">Privacy</a>
+<a href="terms.html" class="text-gray-700 hover:text-orange-600">Terms</a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center md:text-right text-gray-500 text-sm">
+        © <span id="year"></span> Tasty Bites. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

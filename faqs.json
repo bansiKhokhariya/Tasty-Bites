@@ -1,0 +1,170 @@
+{
+  "poha": [
+    {
+      "q": "What type of poha is best for cooking?",
+      "a": "Thick poha is ideal for making kanda poha or vegetable poha, while thin poha works best for light snacks."
+    },
+    {
+      "q": "How to prevent poha from turning mushy?",
+      "a": "Do not soak poha in water for too long. Just rinse once and let it sit for 5 minutes."
+    },
+    {
+      "q": "Can poha be made healthier?",
+      "a": "Yes, you can add vegetables, peanuts, and sprouts to increase nutrition."
+    }
+  ],
+  "upma": [
+    {
+      "q": "Which rava is used for upma?",
+      "a": "Roasted semolina (suji or rava) is commonly used to make soft and fluffy upma."
+    },
+    {
+      "q": "Why does upma become sticky?",
+      "a": "Upma turns sticky if too much water is added or if it is overcooked. Maintain a 1:2 ratio of rava to water."
+    },
+    {
+      "q": "How can I make upma more flavorful?",
+      "a": "Adding curry leaves, ginger, cashews, and vegetables enhances the taste."
+    }
+  ],
+  "samosa": [
+    {
+      "q": "Which flour is best for making samosa?",
+      "a": "Traditionally refined flour (maida) is used, but whole wheat flour can be used for a healthier version."
+    },
+    {
+      "q": "Can samosas be baked instead of fried?",
+      "a": "Yes, you can bake samosas at 180°C for 25–30 minutes until golden and crispy."
+    },
+    {
+      "q": "What is the classic samosa filling?",
+      "a": "The stuffing is usually made with boiled potatoes, green peas, green chili, ginger, and spices."
+    }
+  ],
+  "dhokla": [
+    {
+      "q": "How can I make dhokla fluffy?",
+      "a": "Adding ENO or baking soda to the batter makes dhokla soft and spongy."
+    },
+    {
+      "q": "How long should dhokla be steamed?",
+      "a": "It usually takes 15–20 minutes on medium flame to steam dhokla properly."
+    },
+    {
+      "q": "What makes dhokla tastier?",
+      "a": "A tempering of mustard seeds, curry leaves, green chilies, and sugar water adds extra flavor."
+    }
+  ],
+  "paneer": [
+    {
+      "q": "What type of paneer is best for butter masala?",
+      "a": "Fresh, soft paneer works best for a creamy paneer butter masala."
+    },
+    {
+      "q": "How to make paneer butter masala creamy?",
+      "a": "Use cashew paste and fresh cream for a rich, creamy gravy."
+    },
+    {
+      "q": "Can paneer butter masala be made vegan?",
+      "a": "Yes, substitute paneer with tofu and cream with coconut cream or cashew cream."
+    }
+  ],
+  "dal": [
+    {
+      "q": "Which dal is best for dal fry?",
+      "a": "Toor dal (pigeon peas) is most commonly used, but moong dal or masoor dal can also be used."
+    },
+    {
+      "q": "How to make dal fry more flavorful?",
+      "a": "A ghee-based tempering with garlic, cumin, and red chili enhances the flavor."
+    },
+    {
+      "q": "Can dal fry be made without onion and garlic?",
+      "a": "Yes, you can skip onion and garlic for a satvik version of dal fry."
+    }
+  ],
+  "gulab-jamun": [
+    {
+      "q": "Why do gulab jamuns break while frying?",
+      "a": "Too much moisture in the dough or frying at very high heat can cause them to break."
+    },
+    {
+      "q": "How to make gulab jamuns soft?",
+      "a": "Knead the dough gently and soak them in warm sugar syrup immediately after frying."
+    },
+    {
+      "q": "Can gulab jamun be made without khoya?",
+      "a": "Yes, milk powder is a good alternative for making gulab jamun."
+    }
+  ],
+  "rasgulla": [
+    {
+      "q": "Why do rasgullas become hard?",
+      "a": "If the chenna is kneaded too much or boiled at high flame, rasgullas turn hard."
+    },
+    {
+      "q": "How to make rasgullas soft and spongy?",
+      "a": "Knead chenna until smooth and cook in boiling sugar syrup at medium heat."
+    },
+    {
+      "q": "Can rasgullas be flavored?",
+      "a": "Yes, cardamom, saffron, or rose water can be added for extra flavor."
+    }
+  ],
+  "mango-shake": [
+    {
+      "q": "Which mango is best for mango shake?",
+      "a": "Alphonso, Kesar, or any sweet ripe mango works best."
+    },
+    {
+      "q": "How to make mango shake creamy?",
+      "a": "Blend mango pulp with chilled milk and a scoop of ice cream for extra creaminess."
+    },
+    {
+      "q": "Can I make mango shake without sugar?",
+      "a": "Yes, if the mangoes are sweet, sugar is not required. Honey can also be used."
+    }
+  ],
+  "chai": [
+    {
+      "q": "What spices are used in masala chai?",
+      "a": "Common spices include ginger, cardamom, cinnamon, cloves, and black pepper."
+    },
+    {
+      "q": "What is the ideal milk-to-water ratio for chai?",
+      "a": "A 2:1 ratio of milk to water is considered perfect for masala chai."
+    },
+    {
+      "q": "When is the best time to drink masala chai?",
+      "a": "It is best enjoyed in the morning or evening but should be avoided right after meals."
+    }
+  ],
+  "sabudana": [
+    {
+      "q": "How to prevent sabudana khichdi from becoming sticky?",
+      "a": "Soak sabudana for 5–6 hours and drain excess water before cooking."
+    },
+    {
+      "q": "Which potatoes are best for sabudana khichdi?",
+      "a": "Starchy potatoes work best as they blend well with sabudana pearls."
+    },
+    {
+      "q": "Can sabudana khichdi be eaten daily?",
+      "a": "It is usually eaten during fasting but can also be enjoyed as a light breakfast or snack."
+    }
+  ],
+  "rajgira": [
+    {
+      "q": "Is rajgira paratha gluten-free?",
+      "a": "Yes, rajgira (amaranth flour) is naturally gluten-free and perfect for fasting."
+    },
+    {
+      "q": "How to make rajgira paratha soft?",
+      "a": "Mix rajgira flour with boiled potatoes to bind the dough and make soft parathas."
+    },
+    {
+      "q": "What can be served with rajgira paratha?",
+      "a": "It tastes best with curd, aloo sabzi, or peanut chutney."
+    }
+  ]
+}
