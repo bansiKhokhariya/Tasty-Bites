@@ -3,61 +3,120 @@
 
   <url>
     <loc>https://tasty-bites-chi.vercel.app/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://tasty-bites-chi.vercel.app/about.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
+
   <url>
     <loc>https://tasty-bites-chi.vercel.app/contact.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
+
   <url>
     <loc>https://tasty-bites-chi.vercel.app/privacy.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://tasty-bites-chi.vercel.app/terms.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://tasty-bites-chi.vercel.app/category.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Recipes -->
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/beverages/chai.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/beverages/mango-shake.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/breakfast/poha.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/breakfast/upma.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/fasting/rajgira.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/fasting/sabudana.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/main/dal.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/main/paneer.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/snacks/dhokla.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/snacks/samosa.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/sweets/gulab-jamun.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasty-bites-chi.vercel.app/recipes/sweets/rasgulla.html</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
