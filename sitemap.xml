@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/about.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/category.html</loc>
+  </url>
+
+  <!-- Recipes -->
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/beverages/chai.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/beverages/mango-shake.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/breakfast/poha.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/breakfast/upma.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/fasting/rajgira.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/fasting/sabudana.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/main/dal.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/main/paneer.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/snacks/dhokla.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/snacks/samosa.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/sweets/gulab-jamun.html</loc>
+  </url>
+  <url>
+    <loc>https://tasty-bites-chi.vercel.app/recipes/sweets/rasgulla.html</loc>
+  </url>
+
+</urlset>
