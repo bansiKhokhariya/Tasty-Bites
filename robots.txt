@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tasty-bites-chi.vercel.app/sitemap.xml
+Sitemap: https://tasty-bites-chi.vercel.app/sitemap-index.xml
